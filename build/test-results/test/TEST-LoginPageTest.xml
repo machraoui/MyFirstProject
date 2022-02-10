@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-08T16:45:05" hostname="DESKTOP-5L7N2A8" time="5.955">
+  <properties/>
+  <testcase name="ConexionOkTest" classname="LoginPageTest" time="5.955"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1644338694072	geckodriver	INFO	Listening on 127.0.0.1:51663
+1644338697531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54905" "-no-remote" "-profile" "C:\\Users\\ib\\AppData\\Local\\Temp\\rust_mozprofilelaXBrO"
+1644338697908	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ib\\AppData\\Local\\Temp\\rust_mozprofilelaXBrO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54905/devtools/browser/d851b7d4-dd6f-4da7-84bc-efdd20033ff9
+1644338700686	Marionette	INFO	Listening on port 51764
+1644338700724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+févr. 08, 2022 5:45:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027872&moatClientLevel2=4440622&moatClientLevel3=325153038&moatClientLevel4=165565199&zMoatADV=8364841&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400180151&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027854&moatClientLevel2=4440622&moatClientLevel3=325079237&moatClientLevel4=165908418&zMoatADV=8364571&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400161026&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27031469&moatClientLevel2=4440622&moatClientLevel3=325322299&moatClientLevel4=165665677&zMoatADV=8364571&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400164109&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027854&moatClientLevel2=4440622&moatClientLevel3=325079237&moatClientLevel4=165908418&zMoatADV=8364571&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400161026&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027872&moatClientLevel2=4440622&moatClientLevel3=325153038&moatClientLevel4=165565199&zMoatADV=8364841&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400180151&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027854&moatClientLevel2=4440622&moatClientLevel3=325079237&moatClientLevel4=165908418&zMoatADV=8364571&zMoatDBMCampID=15702624366&zMoatDBMIOID=25818120&zMoatDBMCreaID=400161026&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wi15CXa8h7AfaunZlm4u5xWjD8ePEZy_mQ_gnQzqsAI.js line 1 > eval line 4098 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wi15CXa8h7AfaunZlm4u5xWjD8ePEZy_mQ_gnQzqsAI.js line 1 > eval line 2806 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wi15CXa8h7AfaunZlm4u5xWjD8ePEZy_mQ_gnQzqsAI.js line 1 > eval line 5797 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27027872&moatClientLevel2=4440622&moatClientLevel3=325153032&moatClientLevel4=165565199&zMoatADV=8364841&zMoatDBMCampID=15702573324&zMoatDBMIOID=25818117&zMoatDBMCreaID=400181152&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27031463&moatClientLevel2=4440622&moatClientLevel3=325312927&moatClientLevel4=165574010&zMoatADV=8364841&zMoatDBMCampID=15702573324&zMoatDBMIOID=25818117&zMoatDBMCreaID=400152631&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wi15CXa8h7AfaunZlm4u5xWjD8ePEZy_mQ_gnQzqsAI.js line 1 > eval line 2370 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/wi15CXa8h7AfaunZlm4u5xWjD8ePEZy_mQ_gnQzqsAI.js line 1 > eval line 6139 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 224: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27031463&moatClientLevel2=4440622&moatClientLevel3=325312927&moatClientLevel4=165574010&zMoatADV=8364841&zMoatDBMCampID=15702573324&zMoatDBMIOID=25818117&zMoatDBMCreaID=400152631&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/havasfrorangedcmdisplay758646212611/moatad.js#moatClientLevel1=27031463&moatClientLevel2=4440622&moatClientLevel3=325312927&moatClientLevel4=165574010&zMoatADV=8364841&zMoatDBMCampID=15702573324&zMoatDBMIOID=25818117&zMoatDBMCreaID=400152631&zMoatDBM_PUB=1, line 248: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+</testsuite>
