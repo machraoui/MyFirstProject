@@ -33,13 +33,13 @@ public class LoginPageTest {
     public void ConexionFailedTest (){
         String validLogin ="poeigrp2@yopmail.com";
         String validPwd = "Poei";
-        String expectedHello= "Hello";
+        String expectedHello= "The password you entered for the username poeigrp2@yopmail.com is incorrect.";
 
         HomePage homePage = new HomePage(driver);
-        homePage.loginPagevalid().LoginOk(validLogin,validPwd);
-        String Verif = homePage.loginPagevalid().conxOK();
+       // homePage.loginPageinvalid().Login_Failed(validLogin,validPwd);
+        String Verif = homePage.loginPageinvalid().Login_Failed(validLogin,validPwd).conxNOK();
 
-        Assert.assertTrue(Verif.contains(expectedHello),"Hello poeigrp2");
+        Assert.assertTrue(Verif.contains(expectedHello),"ERROR");
 
 
     }
@@ -71,24 +71,4 @@ public class LoginPageTest {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

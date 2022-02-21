@@ -35,7 +35,7 @@ public class MyAccountPageTest {
     }
     @Test
     public void Logout_Test_And_ConexionWithemptymail (){
-        String validLogin ="poeigrp2@yopmail.com";
+        String validLogin =" ";
         String validPwd = "Poeigrp2.";
         String reconexion = "Login";
         String testwithemptymail ="Error: Username is required.";
