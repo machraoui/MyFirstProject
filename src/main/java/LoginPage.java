@@ -13,6 +13,7 @@ public class LoginPage {
     By cnxok = By.cssSelector(".woocommerce-MyAccount-content > p:nth-child(1)");
     By reconectbutton = By.cssSelector("p.form-row:nth-child(3) > input:nth-child(3)");
     By conneexionwithemptyMail = By.cssSelector(".woocommerce-error > li:nth-child(1)");
+    By failedConexion = By.cssSelector(".woocommerce-error > li:nth-child(1)");
     long timeout = 10 ;
 
     public LoginPage(WebDriver driver){
@@ -45,6 +46,33 @@ public class LoginPage {
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         return myAccountPage ;
     }
+    public LoginPage Login_Failed (String login , String Password) {
+
+        driver.findElement(usernameselector).sendKeys(login);
+        driver.findElement(password).sendKeys(Password);
+        driver.findElement(ButtonLoginselector).click();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(failedConexion));
+    return this ;
+
+    }
+    public String conxNOK () {
+        return driver.findElement(failedConexion).getText() ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public String Logout_succesful (){
 
         driver.findElement(reconectbutton).click();
