@@ -35,7 +35,7 @@ public class MyAccountPageTest {
     }
     @Test
     public void Logout_Test_And_ConexionWithemptymail (){
-        String validLogin =" ";
+        String validLogin ="poeigrp2@yopmail.com ";
         String validPwd = "Poeigrp2.";
         String reconexion = "Login";
         String testwithemptymail ="Error: Username is required.";
@@ -46,12 +46,13 @@ public class MyAccountPageTest {
         Assert.assertTrue(loginPage.Logout_succesful().contains(testwithemptymail),"Reconect is impossible with empty username");
 
 
+/*
+@Test
+        public void InscriptionConditions() {
 
-
-
-
-
-
+            HomePage homePage = new HomePage(driver);
+        }
+*/
     }
 
 
