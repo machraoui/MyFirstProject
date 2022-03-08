@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginPageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-08T09:53:36" hostname="LFR052852" time="5.263">
+  <properties/>
+  <testcase name="ConexionOkTest" classname="LoginPageTest" time="5.263"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+1646733206581	geckodriver	INFO	Listening on 127.0.0.1:50982
+1646733207301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63253" "-no-remote" "-profile" "C:\\Users\\wmachrao\\AppData\\Local\\Temp\\rust_mozprofileU8L601"
+1646733208771	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\wmachrao\\AppData\\Local\\Temp\\rust_mozprofileU8L601\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63253/devtools/browser/bc77bb68-7d53-4ae7-a008-d6b6c0f07aa4
+1646733211894	Marionette	INFO	Listening on port 61172
+1646733212205	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+mars 08, 2022 10:53:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFOS: Detected dialect: W3C
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://practice.automationtesting.in"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+JavaScript error: http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 221: uncaught exception: TagError: adsbygoogle.push() error: No slot size for availableWidth=0
+1646733221295	Marionette	INFO	Stopped listening on port 61172
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+]]></system-err>
+</testsuite>
