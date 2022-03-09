@@ -1,8 +1,8 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeMethod;
 
-public class HomePage {
+
+public  class HomePage {
     WebDriver driver;
     By Accountselector = By.cssSelector("#menu-item-50 > a");
     By Shoppageselector = By.cssSelector("#menu-item-40 > a");

@@ -7,7 +7,7 @@ import java.time.Duration;
 
 public class LoginPage {
     WebDriver driver;
-    By usernameselector = By.cssSelector("#username");
+    By usernameselector = By.id("username");
     By password = By.cssSelector("#password");
     By ButtonLoginselector =By.cssSelector("[name=login]");
     By cnxok = By.cssSelector(".woocommerce-MyAccount-content > p:nth-child(1)");
@@ -20,7 +20,7 @@ public class LoginPage {
         this.driver=driver;
     }
 
-    public LoginPage LoginOk (String login , String Password) {
+    public MyAccountPage LoginOk (String login , String Password) {
 
         driver.findElement(usernameselector).sendKeys(login);
         driver.findElement(password).sendKeys(Password);
@@ -28,7 +28,8 @@ public class LoginPage {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(cnxok));
 
-        return this ;
+MyAccountPage myAccountPage = new MyAccountPage(driver);
+return myAccountPage ;
     }
     public String conxOK () {
        return driver.findElement((cnxok)).getText() ;
@@ -40,8 +41,8 @@ public class LoginPage {
         driver.findElement(usernameselector).sendKeys(login);
         driver.findElement(password).sendKeys(Password);
         driver.findElement(ButtonLoginselector).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(cnxok));
+        WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        wait1.until(ExpectedConditions.presenceOfAllElementsLocatedBy(cnxok));
 
         MyAccountPage myAccountPage = new MyAccountPage(driver);
         return myAccountPage ;
@@ -51,8 +52,8 @@ public class LoginPage {
         driver.findElement(usernameselector).sendKeys(login);
         driver.findElement(password).sendKeys(Password);
         driver.findElement(ButtonLoginselector).click();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(failedConexion));
+        WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        wait2.until(ExpectedConditions.presenceOfAllElementsLocatedBy(failedConexion));
     return this ;
 
     }

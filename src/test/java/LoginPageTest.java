@@ -1,34 +1,39 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class LoginPageTest {
+
     WebDriver driver ;
-    @BeforeMethod
+
+    @BeforeTest
     public void setup(){
         driver =new FirefoxDriver();
         driver.get("http://practice.automationtesting.in/");
         driver.manage().window().maximize();
     }
-    /* @AfterMethod
+     @AfterTest
     public void teardown (){
-        driver.quit(); */
+        driver.quit();
 
-    // }
+     }
+
     @Test
     public void ConexionOkTest (){
         String validLogin ="poeigrp2@yopmail.com";
         String validPwd = "Poeigrp2.";
-
-
         HomePage homePage = new HomePage(driver);
+        //homePage.loginPagevalid().LoginOk(validLogin,validPwd);
         homePage.loginPagevalid().LoginOk(validLogin,validPwd);
 
 
 
+
     }
+
     @Test
     public void ConexionFailedTest (){
         String validLogin ="poeigrp2@yopmail.com";
@@ -43,31 +48,31 @@ public class LoginPageTest {
 
 
     }
+
     @Test
     public void ConexionFailedTest2 (){
         String validLogin ="poeigrp2@yopmail.com";
         String validPwd = " ";
-        String expectedHello= "Hello";
+        String expectedHello= "Error: Password is required";
 
         HomePage homePage = new HomePage(driver);
-        homePage.loginPagevalid().LoginOk(validLogin,validPwd);
-        String Verif = homePage.loginPagevalid().conxOK();
+        homePage.loginPageinvalid().Login_Failed(validLogin,validPwd).conxNOK();
+       // String Verif2 = homePage.loginPageinvalid().Login_Failed(validLogin,validPwd).conxNOK();
 
-        Assert.assertTrue(Verif.contains(expectedHello),"Hello poeigrp2");
+        //Assert.assertTrue(Verif2.contains(expectedHello),"Hello poeigrp2");
 
 
-    }
+}
+
     @Test
     public void ConexionFailedTest3 (){
-        String validLogin ="poeigrp2";
-        String validPwd = "Poeigrp2.";
+        String validLogin1 ="poeigp2";
+        String validPwd1 = "Poeigrp2.";
         String expectedHello= "Hello";
 
         HomePage homePage = new HomePage(driver);
-        homePage.loginPagevalid().LoginOk(validLogin,validPwd);
-        String Verif = homePage.loginPagevalid().conxOK();
-
-        Assert.assertTrue(Verif.contains(expectedHello),"Hello poeigrp2");
+       homePage.loginPageinvalid().Login_Failed(validLogin1,validPwd1).conxNOK();
+       // Assert.assertTrue(Verif.contains(expectedHello),"Hello poeigrp2");
 
 
     }

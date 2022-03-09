@@ -4,8 +4,8 @@
     <test verbose="2" preserve-order="true" name="C:/Users/wmachrao/firstProject/src/test/java">
 
         <classes>
+            <class name="HomePageTest"></class>
 
-            <class name="src."></class>
 
         </classes>
     </test>
